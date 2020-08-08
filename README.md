@@ -31,4 +31,4 @@ If deleting your app extension from the project, be sure to only remove referenc
 
 Safari app extensions are available in macOS 10.12 and later, and in OS X 10.11. 5 with Safari 10 installed.
 
-Debuggles is available under the *Apache License*, excluding anything in the `AddSafariAppExtensionHere` folder.
+Debuggles is available under the *Apache License*, excluding anything in the `AddSafariAppExtensionHere` folder. Debuggles is (C) Copyright 2020 Andrew Kingdom.
