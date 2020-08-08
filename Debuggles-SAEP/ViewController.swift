@@ -9,12 +9,13 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    var vc:NSViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let dx = DebugglesX()
-        let viewcontroller = dx.popoverViewController()
+        vc = dx.popoverViewController()
         
         #if !DEBUGGLES
         print("Debuggles not found")
@@ -25,7 +26,7 @@ class ViewController: NSViewController {
         var nibObjects: NSArray?
         let nibName = NSNib.Name(stringLiteral: DebugglesX.nibName)
         
-        if !Bundle.main.loadNibNamed(nibName, owner: viewcontroller, topLevelObjects: &nibObjects) || nibObjects == nil {
+        if !Bundle.main.loadNibNamed(nibName, owner: vc, topLevelObjects: &nibObjects) || nibObjects == nil {
             print("Nib Not Found (\(nibName))")
             return
         }
@@ -50,12 +51,49 @@ class ViewController: NSViewController {
         view.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
         view.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
         
+        vc?.viewDidLoad()
+        
         // could call dx.toolbarItemClicked(in:ds) but it seems not that trivial
+    }
+    
+    override func viewDidLayout() {
+        super.viewDidLayout()
+        vc?.viewDidLayout()
+    }
+    override func viewDidAppear() {
+        super.viewDidAppear()
+        vc?.viewDidAppear()
+    }
+    override func viewDidDisappear() {
+        super.viewDidDisappear()
+        vc?.viewDidDisappear()
+    }
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        vc?.viewWillAppear()
+    }
+    override func viewWillLayout() {
+        super.viewWillLayout()
+        vc?.viewWillLayout()
+    }
+    override func viewWillDisappear() {
+        super.viewWillDisappear()
+        vc?.viewWillDisappear()
+    }
+    override func viewWillTransition(to newSize: NSSize) {
+        super.viewWillTransition(to: newSize)
+        vc?.viewWillTransition(to: newSize)
+    }
+    override func updateViewConstraints() {
+        super.updateViewConstraints()
+        vc?.updateViewConstraints()
     }
 
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
+            super.representedObject = representedObject
+            vc?.representedObject = representedObject
         }
     }
     
