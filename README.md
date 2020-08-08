@@ -21,3 +21,5 @@
  print("this will be ignored in Debuggles but not in Safari")
  #endif
 ``` 
+
+Debuggles is available under the *Apache License*, excluding anything in the `AddSafariAppExtensionHere` folder.
