@@ -22,6 +22,11 @@
  #endif
 ``` 
 
+6. Run
+
+
+### Notes
+
 If deleting your app extension from the project, be sure to only remove references, not delete the files.
 
 Safari app extensions are available in macOS 10.12 and later, and in OS X 10.11. 5 with Safari 10 installed.
