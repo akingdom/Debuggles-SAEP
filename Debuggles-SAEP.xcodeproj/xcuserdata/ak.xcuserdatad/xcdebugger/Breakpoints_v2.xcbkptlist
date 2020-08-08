@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8C0C2D34-82D9-41CB-BE42-CE8E20CB3E06"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F31B7B0-40D1-4F80-A8F0-A3B515EABC33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ToteNote2020/MacOS/Calculations/Calculations Extension/SafariExtensionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CFED1E4-1B8C-4424-9F7B-DAF56AB08191"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ToteNote2020/MacOS/Calculations/Calculations Extension/SafariExtensionHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "SafariExtensionHandler"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3CFED1E4-1B8C-4424-9F7B-DAF56AB08191 - 118cf63b0b63e9b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_FEE0D7B8022608D3E65E5FDCC7EC9E71_func0"
+                  moduleName = "Debuggles-SAEP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/ToteNote2020/MacOS/Calculations/Calculations%20Extension/SafariExtensionHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "3CFED1E4-1B8C-4424-9F7B-DAF56AB08191 - 91fac12efd9d48d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Debuggles_SAEP.SafariExtensionHandler.extensionDisplayName.unsafeMutableAddressor : Swift.String"
+                  moduleName = "Debuggles-SAEP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/ToteNote2020/MacOS/Calculations/Calculations%20Extension/SafariExtensionHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "3CFED1E4-1B8C-4424-9F7B-DAF56AB08191 - 22d6936ac724feda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Debuggles_SAEP.SafariExtensionHandler.extensionDisplayName.getter : Swift.String"
+                  moduleName = "Debuggles-SAEP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/ToteNote2020/MacOS/Calculations/Calculations%20Extension/SafariExtensionHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
